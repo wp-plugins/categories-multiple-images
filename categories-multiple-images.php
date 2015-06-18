@@ -3,7 +3,7 @@
  /**
  * Plugin Name: Categories Multiple Images
  * Description: Categories Multiple Images Plugin allows you to add multiple images to categories or any other custom taxonomy.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Lior Broshi, Binternet
  * Author URI: http://www.binternet.co.il
  * Text Domain: cmi
@@ -151,6 +151,8 @@ class Categories_Multiple_Images {
         if ( empty( $args['input'] ) ) {
             return FALSE;
         }
+        
+        $html = '';
         
         switch ( $args['input'] ) {
             case 'total_images':

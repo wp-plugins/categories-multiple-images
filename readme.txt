@@ -35,6 +35,9 @@ e.g.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Bugfix
+
+= 1.0.0 =
 * First release, my first plugin ;-)
 
